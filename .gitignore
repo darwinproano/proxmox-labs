@@ -1,0 +1,60 @@
+# ============================================================
+# proxmox-labs - Public repository protection
+# ============================================================
+
+# Credentials / secrets
+*.key
+*.pem
+*.pfx
+*.p12
+*.kdbx
+*.ovpn
+*.env
+.env.*
+*secret*
+*credential*
+*password*
+
+# SSH
+id_rsa*
+id_ed25519*
+known_hosts
+
+# Terraform / automation secrets (future use)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Backups / temporary files
+*.bak
+*.backup
+*.tmp
+*.log
+*.zip
+*.7z
+
+# VM / disk images
+*.qcow2
+*.raw
+*.vmdk
+*.vhd
+*.vhdx
+*.iso
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local/private material
+private/
+evidence/
+secrets/
+credentials/
