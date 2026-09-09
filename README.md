@@ -36,7 +36,7 @@ Cada laboratorio incluye documentación suficiente para comprender **qué se imp
 
 | Lab | Proyecto | Estado |
 |---|---|---|
-| **Lab 01** | VM Deployment — GUI, CLI & REST API Automation | 🟡 Publishing |
+| Lab 01 | [VM Deployment — GUI, CLI & REST API Automation](labs/01-vm-deployment-automation/) | 🟢 Published |
 | **Lab 02** | Próximo laboratorio / Next Lab | ⚪ Planned |
 
 > El repositorio crecerá progresivamente con nuevos escenarios y tecnologías.
@@ -70,7 +70,7 @@ El laboratorio explora progresivamente:
 - Validación y troubleshooting
 - Evidencias de implementación
 
-📁 **Documentación completa del Lab 01:** próximamente en `/labs/01-vm-deployment-automation/`
+📁 **[Explore the complete Lab 01 documentation](labs/01-vm-deployment-automation/)**
 
 ---
 
