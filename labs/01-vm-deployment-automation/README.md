@@ -87,6 +87,24 @@ La utilización inicial de la GUI permitió establecer una referencia para compa
 
 ---
 
+---
+
+## 💻 Creación de máquina virtual mediante CLI | CLI Deployment
+
+Como siguiente etapa del laboratorio se realizó el aprovisionamiento de una máquina virtual directamente desde la línea de comandos de **Proxmox VE**, utilizando la herramienta `qm`.
+
+Este método permite administrar el ciclo de creación y configuración de la VM sin depender de la interfaz gráfica, facilitando la repetibilidad de las tareas y sirviendo como paso intermedio hacia métodos de automatización mediante API e Infrastructure as Code.
+
+### Recurso utilizado
+
+Para complementar el despliegue mediante CLI se desarrolló un script Bash reutilizable que valida los componentes necesarios y realiza el aprovisionamiento de la VM utilizando qm y Cloud-Init.
+
+📄 **Script:** [`deploy-ubuntu-cloud-cli.sh`](scripts/deploy-ubuntu-cloud-cli.sh)
+
+El script permite personalizar VMID, nombre de la VM, almacenamiento, bridge, direccionamiento IP, recursos de hardware y otros parámetros antes de su ejecución.
+
+---
+
 ## ☁️ Ubuntu Cloud Image y Cloud-Init | Cloud Image Deployment
 
 Para agilizar el aprovisionamiento de máquinas virtuales se utilizó una **Ubuntu Server 24.04 Cloud Image**, evitando realizar una instalación tradicional del sistema operativo desde una imagen ISO.
