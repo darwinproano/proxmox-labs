@@ -85,7 +85,6 @@ La utilización inicial de la GUI permitió establecer una referencia para compa
 
 ![Proxmox VM configuration](images/01-gui-vm-configuration.png)
 
----
 
 ---
 
@@ -150,6 +149,14 @@ Este enfoque introduce conceptos fundamentales de **Infrastructure as Code (IaC)
 ### Evidencia
 
 ![Terraform apply](images/04-automation-terraform-apply.png)
+
+### Código Terraform
+
+La configuración utilizada para el despliegue mediante Infrastructure as Code se encuentra disponible en el siguiente directorio:
+
+📁 **Terraform:** [`terraform/`](terraform/)
+
+El código incluye la definición del provider de Proxmox VE, variables, requisitos de versión y la configuración utilizada para desplegar la máquina virtual Ubuntu Cloud.
 
 ---
 
