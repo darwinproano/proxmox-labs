@@ -34,10 +34,13 @@ Cada laboratorio incluye documentación suficiente para comprender **qué se imp
 
 ## 🧪 Engineering Labs
 
-| Lab | Proyecto | Estado |
-|---|---|---|
-| Lab 01 | [VM Deployment — GUI, CLI & REST API Automation](labs/01-vm-deployment-automation/) | 🟢 Published |
-| **Lab 02** | Próximo laboratorio / Next Lab | ⚪ Planned |
+| Lab | Proyecto | Recursos | Estado |
+|---|---|---|---|
+| Lab 01 | VM Deployment — GUI, CLI & REST API Automation | [GitHub Lab](./Lab01) · [Artículo](ENLACE_LAB01_BLOG) | 🟢 Published |
+| Lab 02 | Proxmox VE Architecture & Networking — Linux Bridges, Routing & NAT | [Artículo en Conocimiento IT](https://conocimientoit.wordpress.com/2026/09/28/proxmox-ve-lab-02-arquitectura-y-networking-linux-bridges-routing-y-nat/) | 🟢 Published |
+| Lab 03 | Storage & Virtual NAS | Próximamente | 🟣 Planned |
+
+> El repositorio crecerá progresivamente con nuevos escenarios y tecnologías. Algunos laboratorios incluyen código, configuraciones y recursos reproducibles en GitHub; otros enlazan a su documentación técnica publicada en **Conocimiento IT**.
 
 > El repositorio crecerá progresivamente con nuevos escenarios y tecnologías.
 
