@@ -1,0 +1,11 @@
+[Unit]
+Description=Subir último respaldo TrueNAS a S3 (opcional)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/local/sbin/backup-truenas-s3.sh
+TimeoutStartSec=2h
+# Activar manualmente después de validar bucket, IAM, costos y respaldo local.

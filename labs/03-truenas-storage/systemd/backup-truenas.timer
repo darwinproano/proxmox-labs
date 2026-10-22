@@ -1,0 +1,11 @@
+[Unit]
+Description=Respaldo semanal de TrueNAS
+
+[Timer]
+OnCalendar=Sun *-*-* 11:00:00
+Persistent=true
+RandomizedDelaySec=5m
+Unit=backup-truenas.service
+
+[Install]
+WantedBy=timers.target

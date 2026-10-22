@@ -1,0 +1,10 @@
+[Unit]
+Description=Respaldo local de datasets TrueNAS por SSH
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/local/sbin/backup-truenas-weekly.sh
+TimeoutStartSec=2h
